@@ -21,9 +21,6 @@
     "autoload": {
         "psr-4": {
             "pisc\\Shopware\\CategoryTree\\": "src/"
-        },
-        "files": [
-            "src/functions.php"
-        ]
+        }
     }
 }
