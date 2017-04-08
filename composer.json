@@ -1,0 +1,29 @@
+{
+    "name": "pisc/shopware-categorytree",
+    "description": "Tree structure for Shopware categories",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "authors": [
+        {
+            "name": "Pieter Scheffers",
+            "email": "info@pieterscheffers.nl",
+            "homepage": "https://www.pieterscheffers.nl",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/PieterScheffers/Shopware-CategoryTree/issues",
+        "wiki": "https://github.com/PieterScheffers/Shopware-CategoryTree/wiki",
+        "source": "https://github.com/PieterScheffers/Shopware-CategoryTree"
+    },
+    "autoload": {
+        "psr-4": {
+            "pisc\\Shopware\\CategoryTree\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
